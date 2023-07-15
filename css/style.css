@@ -33,7 +33,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  left: 15px;
   bottom: 15px;
   z-index: 996;
   background: #ffb727;
@@ -1167,26 +1167,4 @@ model-viewer{
 
 #footer .credits {
   font-size: 13px;
-}
-#chatbox {
-  border: 0px; 
-  background-color: transparent;
-  z-index: 2147483639; 
-  position: fixed; 
-  bottom: 0px; 
-  width: 350px; 
-  height: 600px; 
-  overflow: hidden; 
-  max-width: 100%; 
-  right: 54px; 
-  max-height: 100%;
-
-}
-.chatbox-iframe{
-  background-color: transparent;
-  position: absolute;
-  bottom: 0px;
-  right: 70px;
-  height: 100%;
-  width: 80%;
 }
